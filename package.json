@@ -1,0 +1,41 @@
+{
+    "name": "elenasommer.com",
+    "version": "1.0.0",
+    "description": "lenasommer.com",
+    "main": "index.html",
+    "author": "Marina Salnikova",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/elenasommer/elenasommer.github.io/issues"
+    },
+    "homepage": "https://github.com/elenasommer/elenasommer.github.io#readme",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "watch:sass": "sass --watch src/_assets/scss:_site/css",
+        "build:sass": "sass --no-source-map src/_assets/scss:_site/css --style=compressed",
+        "build-local:sass": "sass src/_assets/scss:_site/css",
+        "watch:eleventy": "eleventy --serve",
+        "build:eleventy": "eleventy",
+        "start": "npm-run-all build-local:sass --parallel watch:*",
+        "build": "npm-run-all build:*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elenasommer/elenasommer.github.io.git"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^0.12.1",
+        "@11ty/eleventy-img": "^0.8.3",
+        "@creativebulma/bulma-divider": "^1.1.0",
+        "bulma": "^0.9.2",
+        "eslint": "^7.26.0",
+        "html-entities": "^2.3.2",
+        "html-minifier": "^4.0.0",
+        "markdown-it": "^12.0.6",
+        "npm-run-all": "^4.1.5",
+        "sass": "^1.32.13",
+        "stylelint-config-standard": "^22.0.0"
+    }
+}

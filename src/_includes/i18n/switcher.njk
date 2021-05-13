@@ -1,0 +1,19 @@
+{% for language in data.site.languages %}
+
+    {# if current locale matches language - show current url/span #}
+    {# else #}
+    {# if item.url replace language to locale matches current url - we found alias, show alias #}
+
+    {% if language.code == locale %}
+        <span class="current-language">{{ language.code }}</span>
+    {% else %}
+    {% set replaceFrom %}/{{locale}}/{% endset %}
+    {% set replaceTo %}/{{language.code}}/{% endset %}
+    {% set expectedUrl = page.url | replace(replaceFrom, replaceTo) %}
+        {% for item in collections.all %}
+            {% if expectedUrl == item.url %}
+                <a href="{{ item.url | url }}" title="{{ item.data.title }}">{{ language.code }}</a>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}

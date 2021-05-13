@@ -1,0 +1,12 @@
+{
+    "languages": [
+        {
+            "code": "en",
+            "label": "english"
+        },
+        {
+            "code": "fr",
+            "label": "français"
+        }
+    ]
+}
