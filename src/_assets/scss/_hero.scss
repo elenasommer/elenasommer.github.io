@@ -1,0 +1,21 @@
+@import 'variables';
+
+.hero {
+    background-color: $color-base-dark;
+
+    .hero-body {
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: $tablet) {
+        .hero-body {
+            max-width: 80vw;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        .hero-body {
+            max-width: 800px;
+        }
+    }
+}

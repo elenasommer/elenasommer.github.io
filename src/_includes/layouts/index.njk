@@ -3,9 +3,9 @@
     <head>
         {% include 'html/head.njk' %}
     </head>
-    <body>
-        <div>{% include 'i18n/switcher.njk' %}</div>
-
-        <div class="content">{{ content | safe }}</div>
+    <body class="has-navbar-fixed-top">
+        
+            {{ content | safe }}
+       
     </body>
 </html>

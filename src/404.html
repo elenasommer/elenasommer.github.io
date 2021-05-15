@@ -1,0 +1,41 @@
+---
+layout: 'layouts/404.njk'
+permalink: 404.html
+eleventyExcludeFromCollections: true
+---
+
+<div class="invert-colors is-flex is-flex-grow-1">
+    <article class="content page404 is-flex is-flex-direction-column is-flex-grow-1">
+        <div class="is-flex is-justify-content-center">
+            <img
+                src="/img/logo/logo.svg"
+                alt="{{ data.meta.person }}"
+                class="logo"
+            />
+        </div>
+
+        <h1>404</h1>
+
+        <div class="dual-lang">
+            <div class="en" lang="en">
+                <p>{{ data.404['en'].notFoundText }}</p>
+                <p>
+                    <a href="/" class="button is-info is-outlined">
+                        <span> {{ data.404['en'].notFoundLink }} </span>
+                        <span class="icon" aria-hidden="true"> &rarr; </span>
+                    </a>
+                </p>
+            </div>
+            <div class="divider is-vertical">•</div>
+            <div class="fr" lang="fr">
+                <p>{{ data.404['fr'].notFoundText }}</p>
+                <p>
+                    <a href="/" class="button is-info is-outlined">
+                        <span> {{ data.404['fr'].notFoundLink }} </span>
+                        <span class="icon" aria-hidden="true"> &rarr; </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </article>
+</div>

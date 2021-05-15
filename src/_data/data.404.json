@@ -1,0 +1,11 @@
+{
+    "en": {
+        "notFoundText": "Page not found.",
+        "notFoundLink": "Return back to main page."
+    },
+    "fr": {
+        "notFoundText": "Page non trouvée",
+        "notFoundLink": "Revenir à la page principale."
+        
+    }
+}

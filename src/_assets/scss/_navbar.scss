@@ -1,0 +1,17 @@
+@import 'variables';
+
+.navbar {
+    padding: 0 1rem;
+
+    &.is-black {
+        background-color: $color-base-dark;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: 0 2rem;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding: 0 2rem;
+    }
+}
