@@ -3,6 +3,10 @@
 .hero {
     background-color: $color-base-dark;
 
+    &.hero.is-fullheight-with-navbar {
+        min-height: calc(75vh - 3.25rem);
+    }
+
     .hero-body {
         margin: 0 auto;
     }
