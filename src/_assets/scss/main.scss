@@ -73,3 +73,11 @@ article {
         margin-bottom: 3rem;
     }
 }
+
+.footer {
+    padding: 2rem 1.25rem 4rem;
+
+    @media screen and (min-width: $tablet) {
+        padding: 3rem 1.25rem 6rem;
+    }
+}
