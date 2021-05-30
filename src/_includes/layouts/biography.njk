@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+    <head>
+        {% include 'html/head.njk' %}
+    </head>
+    <body>
+        <div>{% include 'html/nav.njk' %}</div>
+        <div>{% include 'i18n/switcher.njk' %}</div>
+
+        <div class="content with-navbar">
+            <article>
+
+                <h1>{{ title }}</h1>
+                {{ content | safe }}
+            </article>
+        </div>
+
+        <div>
+            <article>
+        <h1>{{ data.bio[locale].timeline.title }}</h1>
+
+        <ul  class="timeline">
+        {% for event in data.bio[locale].timeline.events | reverse %}
+            <li>
+                <div class="direction">
+                    <div class="flag-wrapper">
+                        <span class="flag">{{ event.year }}</span>
+                        {% if event.date %}
+                        <span class="time-wrapper"><span class="time">{{ event.date }}</span></span>
+                        {% endif %}
+                    </div>
+                    <div class="desc">
+                        <p class="name">{{ event.name }}</p>
+                        {% if event.place %} <p class="place">{{ event.place }}</p> {% endif %}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+
+            </article>
+        </div>
+
+        {% include 'html/footer.njk' %}
+
+    </body>
+</html>

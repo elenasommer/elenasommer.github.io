@@ -14,4 +14,16 @@
     @media screen and (min-width: $desktop) {
         padding: 0 2rem;
     }
+
+    .navbar-start {
+        .navbar-item {
+            height: 100%;
+
+            a.logo {
+                display: inline-flex;
+                height: 100%;
+                align-items: center;
+            }
+        }
+    }
 }

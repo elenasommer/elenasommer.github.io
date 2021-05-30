@@ -54,11 +54,19 @@ module.exports = function (eleventyConfig) {
         return content;
     });
 
-    // favicon
+    /*
+     * Favicon
+     * Images
+     * CNAME
+     * JQuery
+     * Lightbox (scss imported in main.scss)
+     */
     eleventyConfig.addPassthroughCopy({
         'src/_assets/favicon': 'favicon',
         'src/_assets/img': 'img',
         CNAME: 'CNAME',
+        'node_modules/jquery/dist/jquery.min.js': 'js/jquery.min.js',
+        'node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js': 'js/simple-lightbox.jquery.min.js'
     });
 
     return {

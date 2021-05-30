@@ -5,14 +5,27 @@
     {# if item.url replace language to locale matches current url - we found alias, show alias #}
 
     {% if language.code == locale %}
-        <span class="current-language">{{ language.code }}</span>
+        <a
+            class="button is-ghost is-disabled"
+        >
+            <span class="icon">
+                <img src="/img/flags/{{ language.code }}.svg" alt="{{ language.code }}" />
+            </span>
+        </a>
     {% else %}
     {% set replaceFrom %}/{{locale}}/{% endset %}
     {% set replaceTo %}/{{language.code}}/{% endset %}
     {% set expectedUrl = page.url | replace(replaceFrom, replaceTo) %}
         {% for item in collections.all %}
             {% if expectedUrl == item.url %}
-                <a href="{{ item.url | url }}" title="{{ item.data.title }}">{{ language.code }}</a>
+                <a
+                    class="button is-ghost"
+                    href="{{ item.url | url }}" title="{{ item.data.title }}"
+                >
+                    <span class="icon">
+                        <img src="/img/flags/{{ language.code }}.svg" alt="{{ language.code }}" />
+                    </span>
+                </a>
             {% endif %}
         {% endfor %}
     {% endif %}

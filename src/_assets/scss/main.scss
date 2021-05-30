@@ -9,6 +9,12 @@ $family-sans-serif: 'Lato', sans-serif;
 @import 'navbar';
 @import 'hero';
 
+// lightbox
+@import 'lightbox';
+
+// components
+@import 'timeline';
+
 // custom pages
 @import 'index';
 
@@ -33,6 +39,10 @@ h1 {
 article {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.with-navbar {
+    margin-top: 3.25rem;
 }
 
 .invert-colors {
@@ -79,5 +89,28 @@ article {
 
     @media screen and (min-width: $tablet) {
         padding: 3rem 1.25rem 6rem;
+    }
+}
+
+.button {
+    &.is-disabled {
+        .icon {
+            position: relative;
+
+            &:after {
+                content: ' ';
+                display: block;
+                height: 1rem;
+                width: 1.5rem;
+                background-color: rgb(200 200 200 / 50%);
+                position: absolute;
+                z-index: 1;
+                margin-top: 4px;
+            }
+        }
+    }
+
+    .icon {
+        display: flex;
     }
 }

@@ -1,0 +1,376 @@
+{
+    "en": {
+        "timeline": {
+            "title": "Events",
+            "events": [
+                {
+                    "year": 2010,
+                    "date": "16, 20 April",
+                    "name": "Tchaikovsky \"Pikovaya Dama\" (de Contesse)",
+                    "place": "Lodz, Poland"
+                },
+                {
+                    "year": 2010,
+                    "date": "18 May",
+                    "name": "G. Verdi \"Falstaff\" (Meg)",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2010,
+                    "date": "1 June",
+                    "name": "Tchaikovsky \"Eugene Onegin\" (Filipievna), cond. Tougan Sochiev",
+                    "place": "Salle Pleyel, Paris, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "8, 9, 10 July",
+                    "name": "G. Verdi \"Aida\" (Amneris) le chef d'orchestre J.-M. Curti, \"Festival de Brou\"",
+                    "place": "Bourg en Bresse, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "16, 18 July",
+                    "name": "G. Rossini \"Journey to Reims\" (Maddalena)",
+                    "place": "Baden-Baden, Germany"
+                },
+                {
+                    "year": 2010,
+                    "date": "20 July",
+                    "name": "Solo concert \"Russian Soul\", (Tchaikovsky, Rimski-Korsakov, Musorgsky, Prokofiev, Rachmaninov), piano Pierre-Laurent Boucharlat",
+                    "place": "Festival La Drome, Saint-Paul-Trois-Châteaux Cathedral, Saint-Paul-Trois-Châteaux, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "19 September",
+                    "name": "Solo concert \"Russian Soul\", (Tchaikovsky, Rimski-Korsakov, Musorgsky, Prokofiev, Rachmaninov), piano Pierre-Laurent Boucharlat",
+                    "place": "Salle des charpentes, Royaumont abbey & fondation, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "11 December",
+                    "name": "Verdi \"Aida\" (Amneris), cond. Fabio Mastrangelo, dir. Alexander Kuranov",
+                    "place": "Hermitage Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2011,
+                    "date": "13 January",
+                    "name": "Solo concert. Robert Schumann \"Frauen Liebe und Leben\", F. Chopin \"Melodies\", Arias and Romances: Tchaikovsky, Rimski-Korsakov, Musorgsky. Piano Pierre-Laurent Boucharlat",
+                    "place": "Ecully, Lyon, France"
+                },
+                {
+                    "year": 2011,
+                    "date": "3, 20 May, 19 July",
+                    "name": "R. Shchedrin \"Dead Souls\" (Plyushkin)",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2011,
+                    "date": "19 October",
+                    "name": "le Récitale \"Dante Alighieri invite\" Elena Sommer-mezzo-soprano, P.L. Boucharlat - piano, Les oeuvres des compositeurs italiens et russes",
+                    "place": "Salle Molière, Lyon, France"
+                },
+                {
+                    "year": 2011,
+                    "date": "13, 18, 27 November",
+                    "name": "Verdi \"Don Carlos\" (role d'Eboli)",
+                    "place": "La Plata, Argentine"
+                },
+                {
+                    "year": 2012,
+                    "date": "18 March",
+                    "name": "\"Légendes de l'opera\"",
+                    "place": "Salle Molière, Lyon, France"
+                },
+                {
+                    "year": 2012,
+                    "date": "24, 25 March",
+                    "name": "\"Rigoletto\" Maddalena \"L'Amphitéâtre 3000\"",
+                    "place": "Le quai Charles de Gaulle, Lyon, France"
+                },
+                {
+                    "year": 2012,
+                    "date": "30 March",
+                    "name": "Arnold Schoenberg \"Pierrot Lunaire\"",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2013,
+                    "date": "16, 20, 24 March",
+                    "name": "\"Requiem\" Verdi, cond. Anne Randine Overby",
+                    "place": "Bergen, Norway"
+                },
+                {
+                    "year": 2013,
+                    "date": "May",
+                    "name": "Tchaikovsky \"Eugene Onegin\" (Filipievna)",
+                    "place": "Torino, Italy"
+                },
+                {
+                    "year": 2013,
+                    "date": "5 October",
+                    "name": "Borodine \"Prince Igor\" (version concert) rôle de Konchakovna. Ballet, Choeur et Orchestre des Rencontres en Loire. Chef d'orchestre Philippe Péatier",
+                    "place": "Opéra-Théâtre, St-Etienne, France"
+                },
+                {
+                    "year": 2013,
+                    "date": "10 November",
+                    "name": "\"Le voyage à Reims\" (rôle de Maddalena)",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2013,
+                    "date": "18 November",
+                    "name": "\"L'amour pour 3 oranges\" (rôle de Sméraldine))",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2013,
+                    "date": "30 November",
+                    "name": "Concert Gala \"Viva Verdi\"",
+                    "place": "Salle Edouard Herriot, Lyon, France"
+                },
+                {
+                    "year": 2014,
+                    "date": "February-March",
+                    "name": "Tchaikovsky \"Eugene Onegin\" (Filipievna)",
+                    "place": "Napoli, Italy"
+                },
+                {
+                    "year": 2014,
+                    "date": "24, 25 May",
+                    "name": "\"Aida\" le rôle d' Amneris, chef d'orchestre Andrey Chevtchuk",
+                    "place": "L’amphithéâtre 3000 à Lyon, Lyon, France"
+                },
+                {
+                    "year": 2015,
+                    "date": "11, 13, 14 April",
+                    "name": "Verdi \"Rigoletto\" (Maddalena)",
+                    "place": "Theatre de Rabat , Morocco"
+                },
+                {
+                    "year": 2015,
+                    "date": "15, 17, 19, 22, 24 May",
+                    "name": "Serguey Prokofiev \"Les fiançailles dans le couvent\"",
+                    "place": "Théâtre du Capitole à Toulouse, Toulouse, France"
+                },
+                {
+                    "year": 2017,
+                    "date": "",
+                    "name": "Prokofiev. S. \"L'amour des trois orange\" (Fatamargana), Rossini G. \"Barbier de Seville\" (Berthe), Pouccini \"Il Tritico\" (Frougola, Ciesca)",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2018,
+                    "date": "",
+                    "name": "Prokofiev. S. \"L'amour des trois orange\" (Fatamargana), Rossini G. \"Barbier de Seville\" (Berthe), Pouccini \"Il Tritico\" (Frougola, Ciesca)",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                },
+                {
+                    "year": 2018,
+                    "date": "",
+                    "name": "\"Carmen\" (Carmen)",
+                    "place": "Juin festival de Lavaur, France"
+                },
+                {
+                    "year": 2019,
+                    "date": "June",
+                    "name": "Schonberg A. Lied der Waldtaube (Gurrelieder)",
+                    "place": "Voronezh Philarmony, Voronezh, Russia"
+                },
+                {
+                    "year": 2019,
+                    "date": "",
+                    "name": "Prokofiev. S. \"L'amour des trois orange\" (Fatamargana), Rossini G. \"Barbier de Seville\" (Berthe), Pouccini \"Il Tritico\" (Frougola, Ciesca)",
+                    "place": "Mariinsky Theatre, Saint-Petersburg, Russia"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "timeline": {
+            "title": "Programme",
+            "events": [
+                {
+                    "year": 2010,
+                    "date": "16, 20 April",
+                    "name": "Tchaikovsky \"Pikovaya Dama\" (de Contesse)",
+                    "place": "Lodz, Poland"
+                },
+                {
+                    "year": 2010,
+                    "date": "18 Mai",
+                    "name": "G. Verdi \"Falstaff\" (Meg)",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2010,
+                    "date": "1 Juin",
+                    "name": "Tchaikovsky \"Eugene Onegin\" (Filipievna), cond. Tougan Sochiev",
+                    "place": "Salle Pleyel, Paris, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "8, 9, 10 Jule",
+                    "name": "G. Verdi \"Aida\" (Amneris) le chef d'orchestre J.-M. Curti, \"Festival de Brou\"",
+                    "place": "Bourg en Bresse, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "16, 18 Jule",
+                    "name": "G. Rossini \"Journey to Reims\" (Maddalena)",
+                    "place": "Baden-Baden, Allemagne"
+                },
+                {
+                    "year": 2010,
+                    "date": "20 Jule",
+                    "name": "Solo concert \"Russian Soul\", (Tchaikovsky, Rimski-Korsakov, Musorgsky, Prokofiev, Rachmaninov), piano Pierre-Laurent Boucharlat, Festival La Drome",
+                    "place": "la Cathédrale Saint-Paul-Trois-Châteaux, Drôme, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "19 September",
+                    "name": "Solo concert \"Russian Soul\", (Tchaikovsky, Rimski-Korsakov, Musorgsky, Prokofiev, Rachmaninov), piano Pierre-Laurent Boucharlat",
+                    "place": "Salle des charpentes, Royaumont abbaye & fondation, France"
+                },
+                {
+                    "year": 2010,
+                    "date": "11 Desember",
+                    "name": "Verdi \"Aida\" (Amneris), cond. Fabio Mastrangelo dir. Alexander Kuranov",
+                    "place": "Le théâtre de l'Ermitage, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2011,
+                    "date": "13 January",
+                    "name": "Koncert solo. Robert Schumann \"Frauen Liebe und Leben\", F. Chopin \"Melodies\", Arias and Romances: Tchaikovsky, Rimski-Korsakov, Musorgsky. Piano Pierre-Laurent Boucharlat",
+                    "place": "Ecully, Lyon, France"
+                },
+                {
+                    "year": 2011,
+                    "date": "3, 20 May, 19 Jule",
+                    "name": "R. Shchedrin \"Dead Souls\" (Plyushkin)",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2011,
+                    "date": "19 October",
+                    "name": "le Récitale \"Dante Alighieri invite\" Elena Sommer-mezzo-soprano, P.L. Boucharlat - piano, Les oeuvres des compositeurs italiens et russes",
+                    "place": "Salle Molière, Lyon, France"
+                },
+                {
+                    "year": 2011,
+                    "date": "13, 18, 27 November",
+                    "name": "Verdi \"Don Carlos\" (role d'Eboli)",
+                    "place": "La Plata, Argentine"
+                },
+                {
+                    "year": 2012,
+                    "date": "18 March",
+                    "name": "\"Légendes de l'opera\"",
+                    "place": "Salle Molière, Lyon, France"
+                },
+                {
+                    "year": 2012,
+                    "date": "24, 25 March",
+                    "name": "\"Rigoletto\" Maddalena \"L'Amphitéâtre 3000\"",
+                    "place": "quai Charles de Gaulle, Lyon, France"
+                },
+                {
+                    "year": 2012,
+                    "date": "30 March",
+                    "name": "Arnold Schoenberg \"Pierrot Lunaire\"",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2013,
+                    "date": "16, 20, 24 March",
+                    "name": "\"Requiem\" Verdi, cond. Anne Randine Overby",
+                    "place": "Bergen, Norvege"
+                },
+                {
+                    "year": 2013,
+                    "date": "May",
+                    "name": "Tchaikovsky \"Eugene Onegin\" (Filipievna)",
+                    "place": "Torino, Italie"
+                },
+                {
+                    "year": 2013,
+                    "date": "5 Octobre",
+                    "name": "Borodine \"Prince Igor\" (version concert) rôle de Konchakovna. Ballet, Choeur et Orchestre des Rencontres en Loire. Chef d'orchestre Philippe Péatier",
+                    "place": "Opéra-Théâtre, St-Etienne, France"
+                },
+                {
+                    "year": 2013,
+                    "date": "10 Novembre",
+                    "name": "\"Le voyage à Reims\" (rôle de Maddalena)",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2013,
+                    "date": "18 Novembre",
+                    "name": "\"L'amour pour 3 oranges\" (rôle de Sméraldine))",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2013,
+                    "date": "30 Novembre",
+                    "name": "Concert Gala \"Viva Verdi\"",
+                    "place": "Salle Edouard Herriot, Lyon, France"
+                },
+                {
+                    "year": 2014,
+                    "date": "February-March",
+                    "name": "Tchaikovsky \"Eugene Onegin\" (Filipievna)",
+                    "place": "Napoli, Italie"
+                },
+                {
+                    "year": 2014,
+                    "date": "24, 25 Mai",
+                    "name": "\"Aida\" le rôle d' Amneris, chef d'orchestre Andrey Chevtchuk",
+                    "place": "L’amphithéâtre 3000 à Lyon, Lyon, France"
+                },
+                {
+                    "year": 2015,
+                    "date": "11, 13, 14 April",
+                    "name": "Verdi \"Rigoletto\" (Maddalena)",
+                    "place": "Theatre de Rabat, Maroc"
+                },
+                {
+                    "year": 2015,
+                    "date": "15, 17, 19, 22, 24 Mai",
+                    "name": "Serguey Prokofiev \"Les fiançailles dans le couvent\"",
+                    "place": "Théâtre du Capitole à Toulouse, Toulouse, France"
+                },
+                {
+                    "year": 2017,
+                    "date": "",
+                    "name": "Prokofiev. S. \"L'amour des trois orange\" (Fatamargana), Rossini G. \"Barbier de Seville\" (Berthe), Pouccini \"Il Tritico\" (Frougola, Ciesca)",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2018,
+                    "date": "",
+                    "name": "Prokofiev. S. \"L'amour des trois orange\" (Fatamargana), Rossini G. \"Barbier de Seville\" (Berthe), Pouccini \"Il Tritico\" (Frougola, Ciesca)",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                },
+                {
+                    "year": 2018,
+                    "date": "",
+                    "name": "\"Carmen\" (Carmen)",
+                    "place": "Juin festival de Lavaur, France"
+                },
+                {
+                    "year": 2019,
+                    "date": "June",
+                    "name": "Schonberg A. Lied der Waldtaube (Gurrelieder)",
+                    "place": "Philarmonie de Voronej, Voronej, Russie"
+                },
+                {
+                    "year": 2019,
+                    "date": "",
+                    "name": "Prokofiev. S. \"L'amour des trois orange\" (Fatamargana), Rossini G. \"Barbier de Seville\" (Berthe), Pouccini \"Il Tritico\" (Frougola, Ciesca)",
+                    "place": "Le théâtre Mariinski, Saint-Pétersbourg, Russie"
+                }
+            ]
+        }
+    }
+}

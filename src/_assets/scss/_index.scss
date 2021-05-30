@@ -13,6 +13,13 @@
             flex: 1 1 auto;
             justify-content: space-between;
             padding: 0;
+
+            .navbar-item {
+                .button {
+                    background-color: transparent;
+                    color: $color-base-light;
+                }
+            }
         }
     }
 }
