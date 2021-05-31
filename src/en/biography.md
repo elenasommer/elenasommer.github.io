@@ -10,7 +10,7 @@ Valery Gergiev, Placido Domingo, Gianandrea Noseda, John Axelrod, Andris Nelsons
 
 She has also interpreted works from the Vocal Repertoire, including Little Solemn Mass by G. Rossini, Verdi's Requiem, The Passion according to St. John and St. Matthew, the Christmas Oratorio by JS Bach, Pergolesi's Stabat Mater.
 
-## Repertoir
+## Repertoire
 - Russian music
 	- **Konchakovna**, Borodin A. "Prince Igor"
 	- **Olga**, Tchaikovski P. "Eugene Onegin"
