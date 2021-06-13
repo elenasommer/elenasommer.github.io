@@ -2,8 +2,12 @@
 <html lang="en">
     <head>
         {% include 'html/head.njk' %}
+
+        <script>
+$("document").ready(()=>{$(".navbar .logo").click(o=>{o.preventDefault(),$("html, body").animate({scrollTop:"0px"},300)}),$("#precontent a").click(o=>{o.preventDefault(),$("html, body").animate({scrollTop:$("h1").first().offset().top},300)})});
+        </script>
     </head>
-    <body class="has-navbar-fixed-top">
+    <body id="top" class="has-navbar-fixed-top">
         
             {{ content | safe }}
 
