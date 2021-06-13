@@ -54,35 +54,33 @@ layout: 'layouts/index.njk'
     </div>
 </section>
 
-<div class="content">
-    <section class="index box">
-        <article>
-            <h1>{{ data.meta.person }}</h1>
-            <div class="dual-lang">
-                <div class="en" lang="en">
-                    <p>{{ data.index['en'].introText }}</p>
-                    <p>
-                        <!-- <a class="button is-info is-outlined">
-                            <span> {{ data.index['en'].continueLink }} </span>
-                            <span class="icon" aria-hidden="true">
-                                &rarr;
-                            </span>
-                        </a> -->
-                    </p>
-                </div>
-                <div class="divider is-vertical">•</div>
-                <div class="fr" lang="fr">
-                    <p>{{ data.index['fr'].introText }}</p>
-                    <p>
-                        <!-- <a class="button is-info is-outlined">
-                            <span> {{ data.index['fr'].continueLink }} </span>
-                            <span class="icon" aria-hidden="true">
-                                &rarr;
-                            </span>
-                        </a> -->
-                    </p>
-                </div>
+<div class="content index box">
+    <article>
+        <h1>{{ data.meta.person }}</h1>
+        <div class="dual-lang">
+            <div class="en" lang="en">
+                <p>{{ data.index['en'].introText }}</p>
+                <p>
+                    <!-- <a class="button is-info is-outlined">
+                        <span> {{ data.index['en'].continueLink }} </span>
+                        <span class="icon" aria-hidden="true">
+                            &rarr;
+                        </span>
+                    </a> -->
+                </p>
             </div>
-        </article>
-    </section>
+            <div class="divider is-vertical">•</div>
+            <div class="fr" lang="fr">
+                <p>{{ data.index['fr'].introText }}</p>
+                <p>
+                    <!-- <a class="button is-info is-outlined">
+                        <span> {{ data.index['fr'].continueLink }} </span>
+                        <span class="icon" aria-hidden="true">
+                            &rarr;
+                        </span>
+                    </a> -->
+                </p>
+            </div>
+        </div>
+    </article>
 </div>
