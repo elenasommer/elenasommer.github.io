@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+    <head>
+        {% include 'html/head.njk' %}
+    </head>
+    <body class="has-navbar-fixed-top">
+        <div>{% include 'html/nav.njk' %}</div>
+
+        <div class="content with-navbar">
+            <article>
+                <h1>
+                    {{ title }}
+                </h1>
+                
+                {% include 'pages/gallery.njk' %}
+
+                {{ content | safe }}
+            </article>
+        </div>
+
+        {% include 'html/footer.njk' %}
+
+    </body>
+</html>

@@ -3,9 +3,20 @@
     <head>
         {% include 'html/head.njk' %}
     </head>
-    <body>
-        <div>{% include 'i18n/switcher.njk' %}</div>
+    <body class="has-navbar-fixed-top">
+        <div>{% include 'html/nav.njk' %}</div>
 
-        <div class="content">{{ content | safe }}</div>
+        <div class="content with-navbar">
+            <article>
+                <h1>
+                    {{ title }}
+                </h1>
+                
+                {{ content | safe }}
+            </article>
+        </div>
+
+        {% include 'html/footer.njk' %}
+
     </body>
 </html>

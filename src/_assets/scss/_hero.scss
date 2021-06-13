@@ -1,7 +1,8 @@
-@import 'variables';
+@use 'variables' as vars;
+@use '../../../node_modules/bulma/sass/utilities/_all.sass' as bulma;
 
 .hero {
-    background-color: $color-base-dark;
+    background-color: vars.$color-base-dark;
 
     &.hero.is-fullheight-with-navbar {
         min-height: calc(75vh - 3.25rem);
@@ -11,13 +12,13 @@
         margin: 0 auto;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: bulma.$tablet) {
         .hero-body {
             max-width: 80vw;
         }
     }
 
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: bulma.$desktop) {
         .hero-body {
             max-width: 800px;
         }

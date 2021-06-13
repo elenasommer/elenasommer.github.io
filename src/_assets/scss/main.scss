@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-@import 'variables';
+@use '../../../node_modules/bulma/sass/utilities/_all.sass' as bulma;
+@use 'variables' as vars;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Lato', sans-serif;
@@ -8,6 +9,7 @@ $family-sans-serif: 'Lato', sans-serif;
 @import 'bulma';
 @import 'navbar';
 @import 'hero';
+@import 'photogallery';
 
 // lightbox
 @import 'lightbox';
@@ -50,8 +52,8 @@ article {
 }
 
 .invert-colors {
-    background-color: $color-base-dark;
-    color: $color-base-light;
+    background-color: vars.$color-base-dark;
+    color: vars.$color-base-light;
 
     h1,
     h2,
@@ -71,7 +73,7 @@ article {
         flex: 1 1 50%;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: bulma.$tablet) {
         flex-direction: row;
     }
 }
@@ -91,7 +93,7 @@ article {
 .footer {
     padding: 2rem 1.25rem 4rem;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: bulma.$tablet) {
         padding: 3rem 1.25rem 6rem;
     }
 }

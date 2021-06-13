@@ -1,0 +1,14 @@
+{
+    "en": {
+        "links": [
+            { "title": "Biography", "url": "biography" },
+            { "title": "Gallery", "url": "gallery" }
+        ]
+    },
+    "fr": {
+        "links": [
+            { "title": "Biographie", "url": "biography" },
+            { "title": "Galerie", "url": "gallery" }
+        ]
+    }
+}

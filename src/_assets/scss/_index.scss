@@ -1,24 +1,12 @@
-@import 'variables';
+@use 'variables' as vars;
+@use '../../../node_modules/bulma/sass/utilities/_all.sass' as bulma;
 
 .navbar {
-    > .container {
-        align-items: stretch;
-        display: flex;
-        min-height: 3.25rem;
-        width: 100%;
-
-        .navbar-menu {
-            display: flex;
-            background: transparent;
-            flex: 1 1 auto;
-            justify-content: space-between;
-            padding: 0;
-
-            .navbar-item {
-                .button {
-                    background-color: transparent;
-                    color: $color-base-light;
-                }
+    .navbar-menu {
+        .navbar-item {
+            .button {
+                background-color: transparent;
+                color: vars.$color-base-light;
             }
         }
     }
@@ -48,12 +36,12 @@
         .scroll-icon {
             display: inline-block;
             transform: rotate(90deg) scaleY(2);
-            color: rgba($color-base-light, 0.25);
+            color: rgba(vars.$color-base-light, 0.25);
             font-weight: 100;
         }
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: bulma.$tablet) {
         .hero-body {
             flex-direction: row;
 
