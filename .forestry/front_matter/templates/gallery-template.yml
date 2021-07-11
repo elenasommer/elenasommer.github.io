@@ -1,0 +1,21 @@
+---
+label: Gallery Template
+hide_body: true
+fields:
+- type: field_group_list
+  name: images
+  label: images
+  fields:
+  - type: file
+    name: file
+    label: file
+  - type: field_group
+    name: title
+    label: title
+    fields:
+    - type: text
+      name: en
+      label: en
+    - type: text
+      name: fr
+      label: fr
