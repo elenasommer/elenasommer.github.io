@@ -1,7 +1,7 @@
 <div class="photogallery">
 {% for image in data.gallery.images %}
 {% set url = ['/img/gallery/', image.file] | join %}
-{% set thumb_url = ['/img/gallery-thumb/200/', image.file] | join %}
+{% set thumb_url = ['/img/gallery-thumb/', image.file] | join %}
 <a href="{{ url }}"><img src="{{ thumb_url }}" alt="" title="{{ image.title[locale] }}" /></a>
 {% endfor %}
 </div>
