@@ -15,46 +15,8 @@ on:
         description: 'Test scenario tags'
 
 jobs:
-  thumbnails:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: dorny/paths-filter@v2
-        id: imagegallery
-        with:
-          filters: |
-            gallery:
-              - 'src/_assets/img/gallery/**'
-      
-      - name: Process Images
-        id: images
-        if: steps.imagegallery.outputs.gallery == 'true'
-        uses: subic/ghaction-thumbnails@v1.1 # Tag number optional, breaking changes not expected.
-        with: # Arguments:
-          source: 'src/_assets/img/gallery' # REQUIRED
-          output: 'src/_assets/img/gallery-thumb' # REQUIRED
-          sizes: 200 # REQUIRED
-          extensions: 'jpg, jpeg, png, webp, gif, tiff'
-          subfolder: '%D'
-          filename: '%F'
-          fit: 'cover'
-          position: 'top'
-          enlarge: 'true'
-          overwrite: 'false'
-      - name: Commit thumbnail folder # This step will commit generated files, remove if not used as a single purpose workflow. Will exit gracefully if no changes are found.
-        # ci.skip as part of commit message or as -o push option should prevent CI trigger
-        run: |
-          echo "Committing folder ${{steps.images.outputs.thumbnails}}"
-          git config --local user.name "${{github.actor}}"
-          git config --local user.email "${{github.actor}}@users.noreply.github.com"
-          git add "./${{steps.images.outputs.thumbnails}}" || exit 0
-          git commit -m "[skip ci] Auto-generated missing thumbnails" -a || exit 0
-          git push -f -q -o ci.skip https://${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
   build:
     runs-on: ubuntu-latest
-    needs: thumbnails
 
     strategy:
       matrix:
